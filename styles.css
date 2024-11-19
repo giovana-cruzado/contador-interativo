@@ -1,0 +1,48 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f3f4f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .counter-container {
+    margin-top: 20vh;
+  }
+  
+  #counter {
+    font-size: 4rem;
+    margin: 20px 0;
+    transition: color 0.3s;
+  }
+  
+  .buttons button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #decrease {
+    background-color: #ff6b6b;
+    color: white;
+  }
+  
+  #reset {
+    background-color: #ffe66d;
+    color: #333;
+  }
+  
+  #increase {
+    background-color: #1dd1a1;
+    color: white;
+  }
+  
+  .buttons button:hover {
+    opacity: 0.9;
+  }
+  
