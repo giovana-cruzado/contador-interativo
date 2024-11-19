@@ -2,16 +2,16 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f3f4f6;
+    background-color: #eff3fc;
     color: #333;
     margin: 0;
     padding: 0;
-  }
-  
-  .counter-container {
-    margin-top: 20vh;
-  }
-  
+    height: 100vh; /* Define a altura do corpo para preencher toda a tela */
+    display: flex; /* Habilita flexbox no body */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
   #counter {
     font-size: 4rem;
     margin: 20px 0;
